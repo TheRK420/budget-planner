@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* border: 1px solid red; */
+    gap:1rem;
+    
+}
+
+.inner_overview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    
+}
+
+.inner_overview  .sec{
+    /* border: 2px lightgrey; */
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    color: green;
+    background-color: #f8f9fa;
+}
+
+.inner_overview .sec2{
+    background-color: #cff4fc;
+}
